@@ -18,20 +18,8 @@ namespace LinkedLists
 {
     class CustomLinkedList
     {
-        private CustomLinkedNode head;
-        private int count;
-
-        public CustomLinkedNode Head
-        {
-            get { return this.head; }
-            set { this.head = value; }
-        }
-
-        public int Count
-        {
-            get { return this.count; }
-            set { this.count = value; }
-        }
+        public CustomLinkedNode Head { get; set; }
+        public int Count { get; set; }
 
         public void Add(string inputData)
         {

@@ -18,20 +18,8 @@ namespace LinkedLists
 {
     class CustomLinkedNode
     {
-        private string data;
-        private CustomLinkedNode next;
-
-        public string Data
-        {
-            get { return this.data; }
-            set { this.data = value; }
-        }
-
-        public CustomLinkedNode Next
-        {
-            get { return this.next; }
-            set { this.next = value; }
-        }
+        public string Data { get; set; }
+        public CustomLinkedNode Next { get; set; }
 
         public CustomLinkedNode(string inputData)
         {
